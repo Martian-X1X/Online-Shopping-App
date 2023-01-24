@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercustomer.CartController">
+   <children>
+      <TableView fx:id="mytable" layoutX="26.0" layoutY="24.0" prefHeight="312.0" prefWidth="262.0" />
+      <Button layoutX="480.0" layoutY="339.0" mnemonicParsing="false" onAction="#returnonclick" text="Return">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextArea fx:id="msgtxt" editable="false" layoutX="300.0" layoutY="181.0" prefHeight="39.0" prefWidth="126.0" />
+      <Button layoutX="354.0" layoutY="258.0" mnemonicParsing="false" text="Proceed to Checkout">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

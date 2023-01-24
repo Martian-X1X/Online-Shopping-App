@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercustomer.DevGoalsController">
+   <children>
+      <Label layoutX="88.0" layoutY="39.0" text="Development Goals">
+         <font>
+            <Font name="Bodoni MT Condensed Bold" size="34.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="25.0" layoutY="127.0" prefHeight="255.0" prefWidth="416.0" />
+      <Label layoutX="25.0" layoutY="100.0" text="Write Down the Goals below:">
+         <font>
+            <Font name="Calisto MT Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="487.0" layoutY="349.0" mnemonicParsing="false" onAction="#ReturnOnClick" text="Return">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="471.0" layoutY="242.0" mnemonicParsing="false" text="Send To Staff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

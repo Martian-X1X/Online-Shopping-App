@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercustomer.MarketController">
+   <children>
+      <Label layoutX="17.0" layoutY="15.0" text="Choose your desired product" textFill="#1d00da">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Hoodies" fitHeight="105.0" fitWidth="114.0" layoutX="14.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Abdullah%20Matin/Desktop/project/hoodies.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="perfume" fitHeight="96.0" fitWidth="115.0" layoutX="123.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Abdullah%20Matin/Desktop/project/qqq.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tshirt" fitHeight="105.0" fitWidth="84.0" layoutX="247.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Abdullah%20Matin/Desktop/project/tshirt.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="watches" fitHeight="78.0" fitWidth="133.0" layoutX="23.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Abdullah%20Matin/Desktop/project/WhatsApp%20Image%202022-11-09%20at%2012.45.18%20AM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="belts" fitHeight="78.0" fitWidth="134.0" layoutX="138.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Abdullah%20Matin/Desktop/project/12.jpeg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="iteminfo" editable="false" layoutX="257.0" layoutY="211.0" prefHeight="138.0" prefWidth="163.0" text="Information:" />
+      <Button layoutX="23.0" layoutY="180.0" mnemonicParsing="false" onAction="#addtocart1" text="Add To Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="128.0" layoutY="180.0" mnemonicParsing="false" onAction="#addtocart2" text="Add To Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="23.0" layoutY="310.0" mnemonicParsing="false" onAction="#addtocart4" text="Add To Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="153.0" layoutY="310.0" mnemonicParsing="false" onAction="#addtocart5" text="Add To Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="247.0" layoutY="180.0" mnemonicParsing="false" onAction="#addtocart3" text="Add To Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="258.0" mnemonicParsing="false" onAction="#checkcart" text="checkout">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="504.0" layoutY="358.0" mnemonicParsing="false" onAction="#LogoutOnClick" text="Logout">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="353.0" layoutY="17.0" prefHeight="25.0" prefWidth="236.0" promptText="Search Item" style="-fx-background-radius: 30;" />
+      <Button layoutX="533.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" style="-fx-background-radius: 20;" text="Search" />
+      <Button layoutX="333.0" layoutY="51.0" mnemonicParsing="false" onAction="#ComplainOnAction" prefHeight="25.0" prefWidth="68.0" text="Complain" />
+      <Button layoutX="412.0" layoutY="51.0" mnemonicParsing="false" onAction="#RestockOnAction" text="Request Stock" />
+      <Button layoutX="513.0" layoutY="51.0" mnemonicParsing="false" onAction="#ExchangeOnAction" text="Exchange" />
+   </children>
+</AnchorPane>
